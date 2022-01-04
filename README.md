@@ -64,6 +64,7 @@ personId: "dotq from Lambda"
 ```
 
 ## sam local
+### 1/ OK result
 ```shell
 sam local start-api
 ```
@@ -72,4 +73,15 @@ sam local start-api
 {
 personId: "dotq from Lambda"
 }
+```
+### 1/ ERR result
+```shell
+sam local invoke (OR sam local invoke -e ./events/event.json HelloWorldFunction)
+->
+Mounting /Users/NC00011462/Documents/GitHub/sam-app/.aws-sam/build/HelloWorldFunction as /var/task:ro,delegated inside runtime container
+START RequestId: 8042fcec-d9a3-45b8-b895-f1404f622eea Version: $LATEST
+    personId = event['queryStringParameters']['personId']
+END RequestId: 8042fcec-d9a3-45b8-b895-f1404f622eea
+REPORT RequestId: 8042fcec-d9a3-45b8-b895-f1404f622eea  Init Duration: 0.38 ms  Duration: 102.59 ms     Billed Duration: 103 ms Memory Size: 128 MB     Max Memory Used: 128 MB
+{"errorMessage": "'queryStringParameters'", "errorType": "KeyError", "requestId": "8042fcec-d9a3-45b8-b895-f1404f622eea", "stackTrace": ["  File \"/var/task/app.py\", line 8, in lambda_handler\n    personId = event['queryStringParameters']['personId']\n"]}
 ```
