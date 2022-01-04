@@ -74,9 +74,10 @@ sam local start-api
 personId: "dotq from Lambda"
 }
 ```
-### 1/ ERR result
+### 2/ ERR result
 ```shell
-sam local invoke (OR sam local invoke -e ./events/event.json HelloWorldFunction)
+sam local invoke
+> OR: sam local invoke -e ./events/event.json HelloWorldFunction
 ->
 Mounting /Users/NC00011462/Documents/GitHub/sam-app/.aws-sam/build/HelloWorldFunction as /var/task:ro,delegated inside runtime container
 START RequestId: 8042fcec-d9a3-45b8-b895-f1404f622eea Version: $LATEST
