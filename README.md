@@ -5,8 +5,10 @@
 ![Forks](https://img.shields.io/github/forks/tquangdo/aws-sam-lambda-apigw-python?color=f05340)
 [![Report an issue](https://img.shields.io/badge/Support-Issues-green)](https://github.com/tquangdo/aws-sam-lambda-apigw-python/issues/new)
 
+![overview](screenshots/overview.png)
+
 ## reference
-1. [youtube](https://www.youtube.com/watch?v=MipjLaTp5nA)
+[youtube](https://www.youtube.com/watch?v=MipjLaTp5nA)
 
 ## install AWS SAM CLI
 ```shell
