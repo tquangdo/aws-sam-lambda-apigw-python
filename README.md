@@ -1,9 +1,9 @@
-# aws-sam-lambda-apigw-python 🐳
+# aws-sam-lambda-apigw-python-simpleapi 🐳
 
-![Stars](https://img.shields.io/github/stars/tquangdo/aws-sam-lambda-apigw-python?color=f05340)
-![Issues](https://img.shields.io/github/issues/tquangdo/aws-sam-lambda-apigw-python?color=f05340)
-![Forks](https://img.shields.io/github/forks/tquangdo/aws-sam-lambda-apigw-python?color=f05340)
-[![Report an issue](https://img.shields.io/badge/Support-Issues-green)](https://github.com/tquangdo/aws-sam-lambda-apigw-python/issues/new)
+![Stars](https://img.shields.io/github/stars/tquangdo/aws-sam-lambda-apigw-python-simpleapi?color=f05340)
+![Issues](https://img.shields.io/github/issues/tquangdo/aws-sam-lambda-apigw-python-simpleapi?color=f05340)
+![Forks](https://img.shields.io/github/forks/tquangdo/aws-sam-lambda-apigw-python-simpleapi?color=f05340)
+[![Report an issue](https://img.shields.io/badge/Support-Issues-green)](https://github.com/tquangdo/aws-sam-lambda-apigw-python-simpleapi/issues/new)
 
 ![overview](screenshots/overview.png)
 
