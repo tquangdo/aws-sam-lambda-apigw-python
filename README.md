@@ -11,7 +11,8 @@
 [youtube](https://www.youtube.com/watch?v=MipjLaTp5nA)
 
 ## link repo
-[github](https://github.com/tquangdo/aws-python-sls-lambda-apigw-simple-json)
+1. [github](https://github.com/tquangdo/aws-python-sls-lambda-apigw-simple-json)
+2. [github](https://github.com/tquangdo/aws-sam-lambda-apigw-nodejs-localcmd)
 
 ## install AWS SAM CLI
 ```shell
