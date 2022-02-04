@@ -10,6 +10,9 @@
 ## reference
 [youtube](https://www.youtube.com/watch?v=MipjLaTp5nA)
 
+## link repo
+[github](https://github.com/tquangdo/aws-python-sls-lambda-apigw-simple-json)
+
 ## install AWS SAM CLI
 ```shell
 brew --version
